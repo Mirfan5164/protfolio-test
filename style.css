@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#container{
+ text-align: center;
+ width: 100%;
+}
+
+.header{
+    background-color: darkgrey;
+    height: 100px;
+}
+.banner{
+    margin-left: 12px;
+    margin-left: 20px;
+    margin-top: 42px;
+}
+.nev{
+    height: 160%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 12;
+}
+.banner{
+    float: left;
+}
+.sub-container{
+    width: 50%px;
+}
+.space{
+margin-top: 500px;
+}
+footer{
+    background-color:black;
+    height: 100px;
+    color: #fff;
+}
+.footer{
+    padding-top: 50px;
+}
+.article-01{
+    text-align: left;
+    width: 50%;  
+    float: left;
+     
+}
+
+.article-02{
+    margin-top: 0px;  
+}
+
+.img-div{
+    text-align: left;
+    margin-top: 12px;
+}
+.bio-info{
+    float: left;
+    margin-left: 228px;
+    margin-top: -200px;
+  }
+
+.obj-details{
+    text-align: left;
+}
+.form{
+   
+    padding: 50px 4px 0px 6px;
+    display: inline-block;
+    text-align: right;
+}
+.inp-txt{
+    width: 500px;
+}
+.inp-txt-area{
+width: 528px;
+height: 101px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+  }
+  .card1{
+    background-image: url(img/img-01.jpg);
+  }
+  .card2{
+    background-image: url(img/img-02.jpg);
+  }
+  .card3{
+    background-image: url(img/img-03.jpg);
+  }
+  .card4{
+    background-image: url(img/img-04.jpg);
+  }
+  .card :hover{
+    transform: translateY(-10px);
+  }
